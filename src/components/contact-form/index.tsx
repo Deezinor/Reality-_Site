@@ -38,7 +38,8 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <section className="[ contact ] [ section ]" id="contact">
+    <section className="[ contact ] [  ]" id="contact">
+      
       <div className="[ container ] [ contact__form ]">
         <h2 className="[ section-title fs-700 clr-neutral-900 fw-600 ]">
           Contact Us
