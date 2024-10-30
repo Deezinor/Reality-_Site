@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@styles': path.resolve(__dirname, './src/styles'),
+      '@styles': path.resolve(__dirname, './src/sass'),
       '@pages': path.resolve(__dirname, './src/pages'),
     },
   },
@@ -24,9 +24,10 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        // main: path.resolve(__dirname, 'index.html'),
+        main: path.resolve(__dirname, 'index.html'),
         home: path.resolve(__dirname, 'src/pages/home/index.html'),
-        about: path.resolve(__dirname, 'src/pages/About/index.html'),
+        about: path.resolve(__dirname, 'src/pages/about/index.html'),
+        services: path.resolve(__dirname, 'src/pages/services/index.html'),
         beatbox: path.resolve(__dirname, 'src/pages/beatbox/index.html'),
         contact: path.resolve(__dirname, 'src/pages/contact/index.html'),
       },
