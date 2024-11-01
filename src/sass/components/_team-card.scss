@@ -5,6 +5,9 @@
   justify-content: center;
   text-align: center;
   background-color: clr(neutral, 400);
+  box-shadow: 0rem 0rem 1rem inset rgba(0, 0, 0, 0.2);
+  border-radius: .25rem;
+
 
   img {
     margin-inline: size(16);

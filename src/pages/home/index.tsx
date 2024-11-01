@@ -13,7 +13,7 @@ const Home: React.FC = () => {
         <section className="[ hero hero__home ] [ clr-neutral-100 text-center ]"></section>
 
         <section className="[ about ] [ section ]" id="about">
-          <div className="[ container ]">
+          <div className="[ container mx-auto ]">
             <div className="[ text-center ]">
               <h1 className="[ section-header fs-900 clr-neutral-800 ]">
                 Let us help bring your ideas to life.
@@ -64,14 +64,16 @@ const Home: React.FC = () => {
                 </p>
               </div>
             </div>
-            <p className="margin-block-start-20 clr-neutral-500">
-              We have been awarded multiple awards from organisation and
-              competitions in different countries across the globe.
-            </p>
-            <p className="margin-block-end-48 clr-neutral-500">
-              Get in touch to start the process of designing a high-quality
-              one-off experience.
-            </p>
+            <div className=" mx-auto paragraph__70 fs-400 clr-neutral-400">
+              <p className="margin-block-16">
+                We have been awarded multiple awards from organisation and
+                competitions in different countries across the globe.
+              </p>
+              <p className="margin-block-end-48">
+                Get in touch to start the process of designing a high-quality
+                one-off experience.
+              </p>
+            </div>
             <a href="#contact" className="button" data-type="accent">
               Contact Us
             </a>
@@ -90,22 +92,22 @@ const Home: React.FC = () => {
               <div className="team-card">
                 <img src="Assets/Mai.jpeg" alt="" />
                 <h4>MAI YE</h4>
-                <p>UNITY DEVELOPER</p>
+                <p>XR DEVELOPER</p>
               </div>
               <div className="team-card">
                 <img src="Assets/Nathan.jpeg" alt="" />
                 <h4>NATHAN THOMAS-BENKE</h4>
-                <p>UNITY DEVELOPER</p>
+                <p>XR DEVELOPER</p>
               </div>
               <div className="team-card">
                 <img src="Assets/Hwanjoon.jpeg" alt="" />
                 <h4>HWANJOON JANG</h4>
-                <p>UNITY DEVELOPER</p>
+                <p>XR DEVELOPER</p>
               </div>
               <div className="team-card">
                 <img src="Assets/Josh.jpeg" alt="" />
                 <h4>JOSHUA DAVIES</h4>
-                <p>UNITY DEVELOPER</p>
+                <p>XR DEVELOPER</p>
               </div>
               <div className="team-card">
                 <img src="Assets/Mo.jpeg" alt="" />

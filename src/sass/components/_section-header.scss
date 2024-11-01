@@ -21,4 +21,32 @@
       margin-inline: auto;
     }
   }
+
+  @include mq(large) {
+    &:has(p) {
+      margin-block-end: size(24); // Reduce margin on medium screens
+    }
+
+    &:not(:has(p)) {
+      margin-block-end: size(24) * 2; // Adjust based on preference
+    }
+
+    &[data-decoration="true"]::after {
+      margin-block-start: size(24); // Adjust the margin above the line
+    }
+  }
+
+  @include mq(small) {
+    &:has(p) {
+      margin-block-end: size(16); // Further reduce margin on small screens
+    }
+
+    &:not(:has(p)) {
+      margin-block-end: size(16) * 1.5; // Adjust based on preference
+    }
+
+    &[data-decoration="true"]::after {
+      margin-block-start: size(16); // Further reduce margin above the line
+    }
+  }
 }

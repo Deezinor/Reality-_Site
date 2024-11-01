@@ -11,4 +11,19 @@
   p {
     font-size: fs(300);
   }
+
+  a {
+    cursor: pointer;
+  }
+
+  img, svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-block-end: size(12);
+    vertical-align: middle;    
+  }
+
+  svg {
+    overflow: visible;
+  }
 }

@@ -10,6 +10,13 @@
 
 .paragraph {
   max-width: 65ch;
+
+  &__70 {
+    max-width: 70ch;
+  }
+  &__60 {
+    max-width: 60ch;
+  }
 }
 
 @each $size-name, $size-value in $sizes {
